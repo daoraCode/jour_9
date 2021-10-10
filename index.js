@@ -1,28 +1,28 @@
 // 1 - Aujourd'hui
-var days = [
-  'dimanche',
-  'lundi',
-  'mardi',
-  'mercredi',
-  'jeudi',
-  'vendredi',
-  'samedi',
-];
+// var days = [
+//   'dimanche',
+//   'lundi',
+//   'mardi',
+//   'mercredi',
+//   'jeudi',
+//   'vendredi',
+//   'samedi',
+// ];
 
-var months = [
-  'janvier',
-  'février',
-  'mars',
-  'avril',
-  'mai',
-  'juin',
-  'juillet',
-  'aout',
-  'septembre',
-  'octobre',
-  'novembre',
-  'décembre',
-];
+// var months = [
+//   'janvier',
+//   'février',
+//   'mars',
+//   'avril',
+//   'mai',
+//   'juin',
+//   'juillet',
+//   'aout',
+//   'septembre',
+//   'octobre',
+//   'novembre',
+//   'décembre',
+// ];
 
 // function whatDayIsToday() {
 //     var date = new Date();
@@ -49,11 +49,10 @@ var months = [
 
 
 
-function calculateAge(age) {
-  var actualDate = new Date().getFullYear(); // Je définis la date actuelle
-  var birthday = new Date(age); // Je définis la date à laquelle je suis né (paramètre : age)
-  var day1 = birthday.getFullYear(); // La méthode `getFullYear` me permettra d'obtenir la essentiellement l'année recherchée 
-  console.log(`Vous avez ${actualDate - day1} ans.`);
-
-}
-calculateAge('1994-07-14');
+// function calculateAge(age) {
+  //   var actualDate = new Date().getFullYear(); // Je définis la date actuelle
+  //   var birthday = new Date(age); // Je définis la date à laquelle je suis né (paramètre : age)
+  //   var day1 = birthday.getFullYear(); // La méthode `getFullYear` me permettra d'obtenir essentiellement l'année désirée 
+  //   console.log(`Vous avez ${actualDate - day1} ans.`);
+  // }
+  // calculateAge('1996');
