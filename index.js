@@ -52,7 +52,7 @@
 // function calculateAge(age) {
   //   var actualDate = new Date().getFullYear(); // Je définis la date actuelle
   //   var birthday = new Date(age); // Je définis la date à laquelle je suis né (paramètre : age)
-  //   var day1 = birthday.getFullYear(); // La méthode `getFullYear` me permettra d'obtenir essentiellement l'année désirée 
-  //   console.log(`Vous avez ${actualDate - day1} ans.`);
+  //   var diff = birthday.getFullYear(); // La méthode `getFullYear` me permettra d'obtenir essentiellement l'année désirée 
+  //   console.log(`Vous avez ${actualDate - diff} ans.`);
   // }
   // calculateAge('1996');
