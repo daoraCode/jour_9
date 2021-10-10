@@ -8,6 +8,7 @@ var days = [
   'vendredi',
   'samedi',
 ];
+
 var months = [
   'janvier',
   'février',
@@ -23,27 +24,36 @@ var months = [
   'décembre',
 ];
 
-function whatDayIsToday() {
-    var date = new Date();
-    var day = date.getDay();
-    day = days[day];
-   return console.log(`Aujourd'hui nous sommes ${day}`);
+// function whatDayIsToday() {
+//     var date = new Date();
+//     var day = date.getDay();
+//     day = days[day];
+//    return console.log(`Aujourd'hui nous sommes ${day}`);
+// }
+// whatDayIsToday();
+
+// function whatMonthIsIt() {
+//     var date = new Date();
+//     var month = date.getMonth();
+//     month = months[month];
+//    return console.log(`Nous sommes au mois de : ${month}`);
+// }
+// whatMonthIsIt();
+
+// function formatDate(date) {
+//     var date = new Date(date);
+//     var format = date.toLocaleDateString();
+//     console.log(format);
+// }
+// formatDate("2020-03-02");
+
+
+
+function calculateAge(age) {
+  var actualDate = new Date().getFullYear(); // Je définis la date actuelle
+  var birthday = new Date(age); // Je définis la date à laquelle je suis né (paramètre : age)
+  var day1 = birthday.getFullYear(); // La méthode `getFullYear` me permettra d'obtenir la essentiellement l'année recherchée 
+  console.log(`Vous avez ${actualDate - day1} ans.`);
+
 }
-whatDayIsToday();
-
-function whatMonthIsIt() {
-    var date = new Date();
-    var month = date.getMonth();
-    month = months[month];
-   return console.log(`Nous sommes au mois : ${month}`);
-}
-whatMonthIsIt();
-
-function formatDate(date) {
-    var date = new Date(date);
-    var format = date.toLocaleDateString();
-    console.log(format);
-}
-formatDate("2021-02-02");
-
-
+calculateAge('1994-07-14');
