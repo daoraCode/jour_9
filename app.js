@@ -1,8 +1,11 @@
 // Moment packages exercises versions, works on Date() object
 
+
 // EXERCICE 1
 
+function whatDayIsToday() {
 
+}
 
 
 

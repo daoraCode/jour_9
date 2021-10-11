@@ -1,7 +1,1 @@
-/nodes_modules
-/moment/dist/locale*
-*.map
-*.ts
-*.md
-*.json
-moment/LICENCE*
+/node_modules
